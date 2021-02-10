@@ -7,7 +7,7 @@
   <script src="<?php echo base_url(); ?>/lib/jquery.flot/jquery.flot.resize.js"></script>
   <script src="<?php echo base_url(); ?>/lib/jqvmap/jquery.vmap.min.js"></script>
   <script src="<?php echo base_url(); ?>/lib/jqvmap/maps/jquery.vmap.usa.js"></script>
-  <script src="<?php echo base_url(); ?>/lib/chart.js/Chart.bundle.min.js"></script>
+  <script src="<?php echo base_url(); ?>/lib/jqueryui/jquery-ui.min.js"></script>
 
   <script src="<?php echo base_url(); ?>/assets/js/dashforge.js"></script>
   <script src="<?php echo base_url(); ?>/lib/prismjs/prism.js"></script>
@@ -18,12 +18,15 @@
   <script src="<?php echo base_url(); ?>/lib/select2/js/select2.min.js"></script>
   <script src="<?php echo base_url(); ?>/assets/js/dashforge.sampledata.js"></script>
   <script src="<?php echo base_url(); ?>/lib/quill/quill.min.js"></script>
+  <script src="<?php echo base_url(); ?>/lib/feather-icons/feather.min.js"></script>
+  <script src="<?php echo base_url(); ?>/lib/chart.js/Chart.bundle.min.js"></script>
+  <script src="<?php echo base_url(); ?>/lib/parsleyjs/parsley.min.js"></script>
 
 </body>
 
 <footer class="footer">
       <div>
-        <span>&copy; 2021 Performance Management System v1.0.0. </span>
+        <span>&copy; 2021 Plantation Management System v1.0.0. </span>
         <span>Created by Bexel.id</span>
       </div>
 </footer>

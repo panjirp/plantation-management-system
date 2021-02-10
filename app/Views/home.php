@@ -1,34 +1,42 @@
 <?php include 'header.php';?>
-
-    <div class="content content-fixed content-auth-alt">
+  <div class="content content-fixed bd-b">
+        <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+            <img src="<?php echo base_url(); ?>/assets/img/plx.svg">
+            </div>
+        </div>
+        </div><!-- container -->
+    </div><!-- content -->
+    <div class="content content-fixed content-auth">
       <div class="container tx-center">
         <div class="row justify-content-center">
           <div class="col-10 col-sm-6 col-md-4 col-lg-3">
-          <a href="employee">
+          <a href="harvesting">
             <div class="card border-0 h-100">
-              <img src="<?php echo base_url(); ?>/assets/img/group.png" class="card-img-top" alt="...">
+              <img src="<?php echo base_url(); ?>/assets/img/menu1.svg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Informasi Karyawan</h3>
+                <h3 class="card-title">Panen TBS & Brondolan</h3>
               </div>
             </div>
           </a>
           </div><!-- col -->
-          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
-            <a href="kpi">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Tidak Tersedia Untuk Demo Version">
+            <a href="#" data-container="body">
               <div class="card border-0 h-100">
-                <img src="<?php echo base_url(); ?>/assets/img/kpi.png" class="card-img-top" alt="...">
+                <img src="<?php echo base_url(); ?>/assets/img/menu2.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h3 class="card-title">Employee KPI Dashboard</h3>
+                  <h3 class="card-title">Field Upkeep</h3>
                 </div>
               </div>
             </a>
           </div><!-- col -->
-          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
-            <a href="pica">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Tidak Tersedia Untuk Demo Version">
+            <a href="#">
                 <div class="card border-0 h-100">
-                  <img src="<?php echo base_url(); ?>/assets/img/statistics.png" class="card-img-top" alt="...">
+                  <img src="<?php echo base_url(); ?>/assets/img/menu3.svg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h3 class="card-title">Identifikasi Masalah & Tindakan Perbaikan</h3>
+                    <h3 class="card-title">Fertilizer / Pemupukan</h3>
                   </div>
                 </div>
               </a>
@@ -36,30 +44,30 @@
         </div><!-- row -->
 
         <div class="row justify-content-center">
-          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
-          <a href="threesixty">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Tidak Tersedia Untuk Demo Version">
+          <a href="#">
             <div class="card border-0 h-100">
-              <img src="<?php echo base_url(); ?>/assets/img/360-degrees.png" class="card-img-top" alt="...">
+              <img src="<?php echo base_url(); ?>/assets/img/menu4.svg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">360° Evaluasi</h3>
+                <h3 class="card-title">Bibit / Nursery</h3>
               </div>
             </div>
           </a>
           </div><!-- col -->
           <div class="col-10 col-sm-6 col-md-4 col-lg-3">
-            <a href="report">
+            <a href="dashboard">
               <div class="card border-0 h-100">
-                <img src="<?php echo base_url(); ?>/assets/img/monitor.png" class="card-img-top" alt="...">
+                <img src="<?php echo base_url(); ?>/assets/img/menu5.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h3 class="card-title">Corporate Reporting Dashboard</h3>
+                  <h3 class="card-title">Dashboard</h3>
                 </div>
               </div>
             </a>
           </div><!-- col -->
-          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
-            <a href="operational">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="Tidak Tersedia Untuk Demo Version">
+            <a href="#">
                 <div class="card border-0 h-100">
-                  <img src="<?php echo base_url(); ?>/assets/img/settings.png" class="card-img-top" alt="...">
+                  <img src="<?php echo base_url(); ?>/assets/img/menu6.svg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title">Pengaturan</h3>
                   </div>
@@ -72,3 +80,10 @@
   </body>
 
   <?php include 'footer.php';?>
+  <script>
+  $(function(){
+        'use strict'
+
+        $('[data-toggle="popover"]').popover();
+  })
+  </script>
